@@ -61,6 +61,7 @@ a{
 
 #homepage_section1{
     height: 90vh;
+    /* z-index: 5; */
 
     background-color: #161A30;
 }
@@ -116,8 +117,20 @@ a{
     background-color: #7589ff;
 }
 
+/* #homepage_main_iphone{
+    width: 40vw;
+    z-index: 6;
+} */
+
 /* ***** Section 2 ***** */
 
+
+#homepage_section2{
+    height: 110vh;
+    
+    /* z-index: 10; */
+    background-color: #262B49;
+}
 
 
 
