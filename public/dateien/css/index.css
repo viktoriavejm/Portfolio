@@ -80,6 +80,16 @@ a{
     color: #7589ff;
 }
 
+#homepage_main_text_name span{
+    color: white;
+    animation-delay: 2s;
+    font-weight: 600;
+}
+
+.txt-rotate > .wrap {
+    border-right: 0.08em solid #666;
+  }
+
 #homepage_main_button1 > p{
     padding: 0.5vw;
     font-size: 1.3em;
