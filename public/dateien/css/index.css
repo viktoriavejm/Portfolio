@@ -96,7 +96,7 @@ a{
     color:#7589ff;
     border: #7589ff solid 2px;
     border-radius: 12px;
-    width: 5vw ;
+    width: 9vw ;
     margin-top: 3vw;
     text-align: center;
 
@@ -104,12 +104,12 @@ a{
 }
 
 #homepage_main_button2 > p{
-    padding: 0.5vw;
+    padding: 0.7vw;
     font-size: 1.3em;
     color:#7589ff;
     border: #7589ff solid 2px;
     border-radius: 12px;
-    width: 7vw ;
+    width: 13vw ;
     margin-top: 2vw;
 
     transition: all ease-in-out 150ms;
