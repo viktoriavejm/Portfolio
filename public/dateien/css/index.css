@@ -102,7 +102,7 @@ a{
 }
 
 .homepage_navbar{
-    padding: 2.5vh 0 0 2vw;
+    padding: 2.5vh 3vw 0 2vw;
     display: grid;
     grid-template-columns: 20% 80%;
 
@@ -112,14 +112,14 @@ a{
 }
 
 .homepage_navbar_link{
-    padding-right: 4vw;
+    padding-right: 5vw;
     display: block;
 
     transition: all ease-in-out 150ms;
 }
 
 .homepage_navbar_link:hover{
-    scale: 1.09;
+    scale: 1.1;
 }
 
 #homepage_section1{
@@ -227,44 +227,17 @@ a{
 
 #homepage_section2{
     height: 110vh;
-    
+    margin: 0;
     /* z-index: 10; */
     background-color: #262B49;
 }
 
 
 /* Skills */
-/* 
-#homepage_section2_skills{
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-
-    text-align: center;
-    color: white;
-}
-
-#homepage_section2_skills div{
-    margin-top: 2vw;
-    width: 10vw;
-    height: 15vh;
-}
-
-#homepage_section2_skills div div img{
-    width: 10vw;
-}
-
-#homepage_section2_skills div div h3{
-    margin-top: 1vh;
-    font-size: 1.5em;
-} */
-
-/* #whatIDo {
-    padding: 5vw 0;
-    background-color: var(--color_background_skills);
-  } */
   
   #whatIDo-container {
-    margin: 0 10vw 0 10vw; 
+    margin: 0vw 11vw 0 11vw; 
+    padding-top: 10vh;
   }
   
   #whatIDo-wrapper {
@@ -279,15 +252,54 @@ a{
     flex-direction: column;
     padding: var(--padding-xl);
     border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    background-color: var(--color_background_skills);
+    box-shadow: 0 0 20px var(--primary-color);
+    background-color: var(--primary-color);
   
     text-align: center;
   }
   
   .whatIDo-box h2 {
-    font-size: var(--font-size-m);
+    font-size: var(--font-size-l);
+    color: var(--color_Hightlight);
     margin: var(--margin-l) 0;
   }
+  
+  .whatIDo-box p {
+    
+    color: var(--font_color_darkSection);
+    margin: var(--margin-l) 0;
+  }
+
+  /* #homepage_main_skills_unwichtig {
+    display: flex;
+    gap: 4vw;
+    justify-content: center;
+    margin: 0vw 11vw 0 11vw; 
+    padding-top: 10vh; 
+  }
+
+  .whatIDo-box_2 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-s);
+    border-radius: 20px;
+    box-shadow: 0 0 20px var(--primary-color);
+    background-color: #090b158b;
+  
+    text-align: center;
+  }
+  
+  .whatIDo-box_2 h2 {
+    font-size: var(--font-size-m);
+    color: rgba(255, 255, 255, 0.563);
+    margin: var(--margin-l) 0;
+  }
+  
+  .whatIDo-box_2 p {
+    font-size: var(--font-size-s);
+    color: rgba(255, 255, 255, 0.373);
+    margin: var(--margin-l) 0;
+  } */
 
 
