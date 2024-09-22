@@ -26,7 +26,7 @@
         <main id="homepage_main">
             <div id="homepage_main_text">
                 <div id="homepage_main_text_name">
-                    <h1 style="color: white; margin-bottom: 0.5vw;">Hello,</h1>
+                    <h1 style="color: white; margin-bottom: 1.5vw;">Welcome to my Website!</h1>
                     <h1 style="margin-bottom: 2vw; color: rgb(255, 255, 255);">I'm <span id="homepage_main_nameHighlight">Viktoria Vejmelek</span></h1>
                     <span
                         class="txt-rotate"
@@ -36,20 +36,86 @@
                 </div>
 
                 <div id="homepage_main_text_buttons">
-                    <div id="homepage_main_button1"><p>Contact Me</p></div>
+                    <div id="homepage_main_button1"><a href="./dateien/html/contact.html">Contact Me</a></div>
 
-                    <div id="homepage_main_button2"><p>Look at my projects</p></div>
+                    <div id="homepage_main_button2"><a onclick="openProjects()" href="./dateien/html/projects.html">Look at my projects</a></div>
                 </div>
             </div>
 
-            <!-- <div id="homepage_main_picture">
-                <img id="homepage_main_iphone" src="./fotos/home/iphone.png" alt="homepage_main_iphone">
-            </div> -->
+            <div id="homepage_main_picture">
+                <!-- <img style="z-index: 6;" id="homepage_main_iphone" src="./fotos/home/file.png" alt="homepage_main_iphone"> -->
+
+                <img id="homepage_main_iphone" src="./fotos/home/form1.png" alt="">
+
+
+            </div>
 
         </main>
     </section>
 
-    <section id="homepage_section2">
+    <section style="z-index: 10;" id="homepage_section2">
+        <h1 style="letter-spacing: 5px; color: #ffffff; padding: 3.5vh 0 0 4vw; font-size: 2.8em;">All the things I can do</h1>
+        <main>
+            <!-- <div id="homepage_section2_skills">
+                <div id="homepage_section2_skills_Java">
+                    <div>
+                        <img src="./fotos/home/java.png" alt="">
+                        <h3>Java</h3>
+                    </div>
+                </div>
+
+                <div id="homepage_section2_skills_JavaScript">
+                    <div>
+                        <img src="./fotos/home/js.png" alt="">
+                        <h3>JavaScript</h3>
+                    </div>
+                </div>
+
+                <div id="homepage_section2_skills_HTML">
+                    <div>
+                        <img src="./fotos/home/html.png" alt="">
+                        <h3>HTML</h3>
+                    </div>
+                </div>
+
+                <div id="homepage_section2_skills_CSS">
+                    <div>
+                        <img src="./fotos/home/css.png" alt="">
+                        <h3>CSS</h3>
+                    </div>
+                </div>
+
+                <div id="homepage_section2_skills_Figma">
+                    <div>
+                        <img src="./fotos/home/figma.png" alt="">
+                        <h3>Figma</h3>
+                    </div>
+                </div>
+            </div> -->
+
+            <div>
+                <div id="whatIDo-container" class="side-padding">
+                    <div id="whatIDo-wrapper">
+            
+                      <div class="whatIDo-box">
+                        <h2>Web Development</h2>
+                        <p>Designing and developing modern websites using Figma, HTML, CSS, JavaScript, TypeScript, and PHP to create responsive and interactive user experiences.</p>
+                      </div>
+            
+                      <div class="whatIDo-box">
+                        <h2>Software Development</h2>
+                        <p>Creating software solutions and applications with Java, working on backend systems, and implementing database management to ensure robust and efficient programs.</p>
+                      </div>
+            
+                      <div class="whatIDo-box">
+                        <h2>Photography & Media Production</h2>
+                        <p>Capturing stunning images and videos, editing content for visual storytelling, and integrating audio to enhance the overall multimedia experience.</p>
+                      </div>
+            
+                    </div>
+                  </div>
+            </div>
+        </main>
 
     </section>
 </body>

@@ -51,3 +51,9 @@ let TxtRotate = function (el, toRotate, period) {
       }
     }
   };
+
+
+
+  function openProjects() {
+    window.location.href = './projects.html'
+  }
