@@ -274,12 +274,8 @@ a{
     margin: var(--margin-l) 0;
   }
 
-  .whatIDo-box:hover, p:hover{
-    color: var(--primary-color) !important;
-    background-color: var(--white-color);
-  }
-
-
+  
+  
   #homepage_main_skills_unwichtig {
     margin: 2vw 20vw 5vw 20vw;
     display: grid;
