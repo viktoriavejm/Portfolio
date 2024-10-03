@@ -238,15 +238,19 @@ a{
   #whatIDo-container {
     margin: 0vw 11vw 0 11vw; 
     padding-top: 10vh;
+    text-align: center !important;
   }
   
   #whatIDo-wrapper {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 4vw;
     justify-content: center; 
+    text-align: center !important;
   }
   
   .whatIDo-box {
+    width: auto;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -255,7 +259,7 @@ a{
     box-shadow: 0 0 20px var(--primary-color);
     background-color: var(--primary-color);
   
-    text-align: center;
+    text-align: center !important;
   }
   
   .whatIDo-box h2 {
@@ -270,14 +274,17 @@ a{
     margin: var(--margin-l) 0;
   }
 
-  /* #homepage_main_skills_unwichtig {
-    display: flex;
+  #homepage_main_skills_unwichtig {
+    color:var(--white-color);
+    display: grid;
     gap: 4vw;
-    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2vw ;
     margin: 0vw 11vw 0 11vw; 
-    padding-top: 10vh; 
+    text-align: center;
   }
 
+  /* 
   .whatIDo-box_2 {
     align-items: center;
     display: flex;
