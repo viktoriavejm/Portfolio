@@ -73,6 +73,7 @@
 }
 
 body {
+    scroll-behavior: smooth;
     font-family: var(--font_Family_AllPages);
     padding: 0;
     margin: 0;
@@ -226,7 +227,7 @@ a{
 
 
 #homepage_section2{
-    height: 110vh;
+    height: 115vh;
     margin: 0;
     /* z-index: 10; */
     background-color: #262B49;
@@ -269,44 +270,73 @@ a{
   }
   
   .whatIDo-box p {
-    
     color: var(--font_color_darkSection);
     margin: var(--margin-l) 0;
   }
 
-  #homepage_main_skills_unwichtig {
-    color:var(--white-color);
-    display: grid;
-    gap: 4vw;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 2vw ;
-    margin: 0vw 11vw 0 11vw; 
-    text-align: center;
+  .whatIDo-box:hover, p:hover{
+    color: var(--primary-color) !important;
+    background-color: var(--white-color);
   }
 
-  /* 
-  .whatIDo-box_2 {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    padding: var(--padding-s);
-    border-radius: 20px;
-    box-shadow: 0 0 20px var(--primary-color);
-    background-color: #090b158b;
-  
-    text-align: center;
-  }
-  
-  .whatIDo-box_2 h2 {
-    font-size: var(--font-size-m);
-    color: rgba(255, 255, 255, 0.563);
-    margin: var(--margin-l) 0;
-  }
-  
-  .whatIDo-box_2 p {
+
+  #homepage_main_skills_unwichtig {
+    margin: 2vw 20vw 5vw 20vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1vw;
+    justify-content: center; 
+    text-align: center !important;
+/*     
     font-size: var(--font-size-s);
-    color: rgba(255, 255, 255, 0.373);
-    margin: var(--margin-l) 0;
-  } */
+    color:var(--white-color);
+    display: grid;
+    gap: 1vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2vw ;
+    margin: 1vw 19vw 0 19vw; 
+    text-align: center; */
+  }
+
+  #homepage_main_skills_unwichtig > div p{
+    font-size: var(--font-size-m);
+  }
+
+
+/* Footer */
+
+#Footer{
+    /* padding: 3vw 10vw 3vw 10vw; */
+    height: 45vh;
+    background-color: #141939;
+}
+
+#grid_System_footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-bottom: white 2px solid;
+}
+
+#homepage_navbar_unten{
+    color: var(--white-color);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3vw;
+}
+
+#homepage_navbar_unten > a{
+    font-size: var(--font-size-m);
+}
+
+.footer_box{
+    padding: 3vw 10vw 3vw 10vw;
+    color: var(--white-color);
+}
+
+.footer_box > h4, h5{
+    font-size: var(--font-size-s);
+    padding: 0 0 1vw;
+    letter-spacing: 1px;
+}
 
 
