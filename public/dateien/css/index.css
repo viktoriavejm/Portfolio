@@ -227,7 +227,7 @@ a{
 
 
 #homepage_section2{
-    height: 115vh;
+    height: auto;
     margin: 0;
     /* z-index: 10; */
     background-color: #262B49;
@@ -325,7 +325,7 @@ a{
 }
 
 .footer_box{
-    padding: 3vw 10vw 3vw 10vw;
+    padding: 1.5vw 10vw 3vw 10vw;
     color: var(--white-color);
 }
 
@@ -333,6 +333,10 @@ a{
     font-size: var(--font-size-s);
     padding: 0 0 1vw;
     letter-spacing: 1px;
+}
+
+#Footer_section2{
+    /* height: 20vh; */
 }
 
 
