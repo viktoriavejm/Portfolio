@@ -137,36 +137,54 @@ a{
 
 /* Contact Formular */
 
+#main_contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.iconUtext{
+    
+}
+
 #formula{
     padding: 10vh 5vw 0 5vw;
 }
 
 #contactVuN{
     padding-top: 2vw;
+    padding-bottom: 2vw;
 }
 
 #contactVuN > input{
-    padding: 0.5vw 1vw;
+    padding:  1vw 1.5vw;
     border: var(--accent-color) solid 2px;
     border-radius: 8px;
     color: var(--white-color);
     background-color: var(--primary-color);
 }
 
-#contactVuN::placeholder, text::placeholder{
-    color: var(--white-color);
+#contactVuN ::placeholder, text::placeholder{
+    color: rgba(255, 255, 255, 0.672);
+}
+
+#email{
+    padding: 0.5vw 0 2vw 0;
 }
 
 #email > input{
-    padding: 0.5vw 1vw;
+    padding: 1vw 1.5vw;
     border: var(--accent-color) solid 2px;
     border-radius: 8px;
     color: var(--white-color);
     background-color: var(--primary-color);
 }
 
+#text{
+    padding: 0.5vw 0 1vw 0;
+}
+
 #text > textarea{
-    padding: 0.5vw 1vw;
+    padding: 1vw 1.5vw;
     border: var(--accent-color) solid 2px;
     border-radius: 8px;
     color: var(--white-color);
