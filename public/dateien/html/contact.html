@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/contact.css">
 </head>
 
 <body>
@@ -24,19 +24,28 @@
             </div>
         </nav>
 
-        <form 
+        <form id="formula"
                 action="https://formspree.io/f/xnnaepal"
                 method="POST">
-            <h3 style="padding: 0; margin: 0;color: white;">Contact me here</h3>
-            <input type="text" name="name" placeholder="Firstname">
-            <input type="text" name="name" placeholder="Last name">
-            <input type="email" name="email" placeholder="E-Mail">
-            <textarea name="message" id="" placeholder="Tell me..."></textarea>
+                <h3 style="padding: 0; margin: 0;color: white;">Contact me here</h3>
+
+            <div id="contactVuN">
+                <input type="text" name="name" placeholder="Firstname">
+                <input type="text" name="name" placeholder="Last name">
+            </div>
+
+            <div id="email">
+                <input type="email" name="email" placeholder="E-Mail">
+            </div>
+           
+            <div id="text">
+                <textarea name="message" id="" placeholder="Tell me..."></textarea>
+            </div>
             
             <!-- add hidden Honeypot input to prevent spams -->
             <input type="hidden" name="_gotcha" style="display:none !important">
             
-            <button type="submit">Send</button>
+            <button id="sendButton" type="submit">Send</button>
         </form>
     </section>
 

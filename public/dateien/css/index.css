@@ -94,7 +94,7 @@ a{
 #homepage_navbar_oben{
     display: flex;
     justify-content: right;
-
+    
 }
 
 #homepage_navbar_portfolio{
@@ -103,6 +103,9 @@ a{
 }
 
 .homepage_navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
     padding: 2.5vh 3vw 0 2vw;
     display: grid;
     grid-template-columns: 20% 80%;
@@ -110,6 +113,7 @@ a{
     height: 3vh;
 
     color: white;
+    
 }
 
 .homepage_navbar_link{
@@ -261,6 +265,15 @@ a{
     background-color: var(--primary-color);
   
     text-align: center !important;
+    transition: all ease-in-out 200ms;
+  }
+
+  .whatIDo-box:hover{
+    background-color: rgba(255, 255, 255, 0.587);
+  }
+
+  .whatIDo-box:hover p{
+    color: var(--primary-color);
   }
   
   .whatIDo-box h2 {
@@ -335,8 +348,6 @@ a{
     letter-spacing: 1px;
 }
 
-#Footer_section2{
-    /* height: 20vh; */
-}
+
 
 
