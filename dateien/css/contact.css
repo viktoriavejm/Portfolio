@@ -88,6 +88,8 @@ h1, h2, h3, h4, h5, h6, p, a{
 a{
     text-decoration: none;
     color: var(--font_color_AllPages);
+    padding: 0;
+    margin: 0;
 }
 
 /* ***** Navbar ***** */
@@ -140,42 +142,53 @@ a{
 #main_contact{
     display: grid;
     grid-template-columns: 1fr 1fr ;
+    padding: 5vh;
 }
 
-.iconUtext{
-    display: grid;
-    grid-template-columns: 1fr;
+.socialImg:hover{
+    transform: translateY(-5px);
 }
 
 .socialImg{
     width: 4vw;
     height: 7vh;
-}
-
-.iconUtext h4{
-    color: var(--white-color);   
+    transition: all ease-in-out 200ms;
 }
 
 #formula{
+    margin: 5vh 5vw 5vh 5vw;
     padding: 10vh 5vw 0 5vw;
-}
-
-#socials div{
-    padding: 0;
-    margin-right: 2vw;
+    border-right: white solid 2px;
+    height: 70vh;
 }
 
 #main2_socials{
-    
+    padding: 5vh 5vw 5vh 5vw;
 }
 
 #socials{
-    padding: 10vh 5vw 0 5vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    gap: 1.5vw;
 }
 
+.header{
+    text-align: left;
+    color: var(--white-color);
+    padding: 10vh 0 5vh 0;
+    text-decoration: underline;
+}
 
+#data{
+    color: var(--white-color);
+}
+
+label{
+    color: #7589ff;
+}
+
+#coffee{
+    padding: 10vh 0 0 0;
+}
 
 #contactVuN{
     padding-top: 2vw;
@@ -183,45 +196,68 @@ a{
 }
 
 #contactVuN > input{
-    padding:  1vw 1.5vw;
-    border: var(--accent-color) solid 2px;
-    border-radius: 8px;
-    color: var(--white-color);
-    background-color: var(--primary-color);
+    border:0;
+  border-bottom:1px solid #555;  
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:16px;
+  color:#fff;
 }
 
-#contactVuN ::placeholder, text::placeholder{
-    color: rgba(255, 255, 255, 0.672);
+#contactVuN input:focus{
+    border:none;	
+    outline:none;
+    border-bottom:1px solid #7589ff;	
 }
 
 #email{
-    padding: 0.5vw 0 2vw 0;
+    padding: 2vh 0 2vh;
 }
 
 #email > input{
-    padding: 1vw 1.5vw;
-    border: var(--accent-color) solid 2px;
-    border-radius: 8px;
-    color: var(--white-color);
-    background-color: var(--primary-color);
+    border:0;
+  border-bottom:1px solid #555;  
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:16px;
+  color:#fff;
+}
+
+#email input:focus{
+    border:none;	
+    outline:none;
+    border-bottom:1px solid #7589ff;	
+}
+
+#text{
+    padding: 2vh 0 2vh;
+}
+
+#text > textarea{
+    border:0;
+  border-bottom:1px solid #a5a5a5;  
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:16px;
+  color:#fff;
+}
+
+#contactVuN ::placeholder, text::placeholder{
+    color: rgba(255, 255, 255, 0.831);
 }
 
 #text{
     padding: 0.5vw 0 1vw 0;
 }
 
-#text > textarea{
-    padding: 1vw 1.5vw;
-    border: var(--accent-color) solid 2px;
-    border-radius: 8px;
-    color: var(--white-color);
-    background-color: var(--primary-color);
-}
-
 #sendButton{
+    margin-top: 4vh;
     padding: 0.5vw 1vw;
     border-radius: 8px;
-    border: var(--accent-color) solid 2px;
+    border: var(--accent-color) solid 1px;
     background-color: var(--primary-color);
     color: var(--accent-color);
 }

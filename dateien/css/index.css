@@ -237,6 +237,9 @@ a{
     background-color: #262B49;
 }
 
+#main{
+    height: auto;
+}
 
 /* Skills */
   
@@ -270,6 +273,7 @@ a{
 
   .whatIDo-box:hover{
     background-color: rgba(255, 255, 255, 0.587);
+    transform: translateY(-5px);
   }
 
   .whatIDo-box:hover p{
@@ -290,7 +294,7 @@ a{
   
   
   #homepage_main_skills_unwichtig {
-    margin: 2vw 20vw 5vw 20vw;
+    padding: 2vw 20vw 5vw 20vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1vw;
@@ -316,7 +320,7 @@ a{
 
 #Footer{
     /* padding: 3vw 10vw 3vw 10vw; */
-    height: 45vh;
+    height: 30vh;
     background-color: #141939;
 }
 
@@ -338,7 +342,8 @@ a{
 }
 
 .footer_box{
-    padding: 1.5vw 10vw 3vw 10vw;
+    /* padding: 1.5vw 10vw 3vw 10vw;  */
+    padding: 1vh 5vw 1vh 5vw;
     color: var(--white-color);
 }
 
