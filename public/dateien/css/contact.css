@@ -129,7 +129,7 @@ a{
 }
 
 #homepage_section1{
-    height: 97vh;
+    height: 100vh;
     /* z-index: 5; */
 
     background-color: #161A30;
@@ -143,10 +143,23 @@ a{
 }
 
 .iconUtext{
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.iconUtext h4{
+    color: var(--white-color);   
 }
 
 #formula{
+    padding: 10vh 5vw 0 5vw;
+}
+
+#main2_socials{
+
+}
+
+#socials{
     padding: 10vh 5vw 0 5vw;
 }
 
